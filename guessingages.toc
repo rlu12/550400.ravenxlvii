@@ -1,2 +1,5 @@
 \beamer@endinputifotherversion {3.20pt}
 \beamer@sectionintoc {1}{Guessing Ages}{3}{0}{1}
+\beamer@sectionintoc {2}{Where are the cancers?}{6}{0}{2}
+\beamer@sectionintoc {3}{Handedness inventory}{8}{0}{3}
+\beamer@sectionintoc {4}{What's in the news?}{9}{0}{4}
