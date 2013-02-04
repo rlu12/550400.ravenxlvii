@@ -1,0 +1,65 @@
+Spring 2013 550.400 Mathematical Modelling and Consulting 
+
+Instructor: Dr. Nam H. Lee
+Email: nhlee@jhu.edu
+OH: See the information on sections
+
+Lecture: Shaffer 2, MW from 4.30 PM to 5.45 PM
+Section: Shaffer 2, Th from 9.00 AM to 9.50 AM 
+
+Keywords: An Introduction to R, Writing R Extensions, Mathematical Statistics
+Through Applications, Using LaTeX, Quiz, Project Proposal, Final Deliverables
+
+Textbooks: 
+1) The Chicago Guide to Writing about Multivariate Analysis (Miller)
+2) Stat Labs: Mathematical Statistics Through Applications (Nolan & Speed)
+
+Grading: Final course grade will be based on
+1) Quizzes on R and understanding of statistical concepts (33%)
+2) Homework/small projects (33%)
+3) Final project and its preparations (33%)
+
+Quizzes will be given in class. There is no makeup quiz. The lowest two quiz
+grades will be dropped.  If you miss a quiz, your grade on that will be a zero
+and will constitute one of the two dropped grades.
+
+Homework policy: Homework is due one week from day of assignment and will be
+collected occasionally in class and occasionally via Blackboard.  If you are
+unable to get to class when the homework is due in class, please make an
+arrangement with the grader to drop your homework before the class starts.
+You are encouraged to collaborate on *ideas* with your colleagues, but you
+should always compose your own reports, math solutions and computer programs.
+
+Equipment: You will need your own computer with the most recent version of R,
+LaTeX, Git, Rstudio installed.  You will also need access to a computer that
+can capture streaming screens with voice over. In Mac OSX, Quicktime can do
+this easily. 
+
+Grader: Huong Trinh
+Email: ttrinh6@jhu.edu
+OH: See the information on sections
+
+Sections: There may be certain sections in which your attendance will be
+required.  Quizzes might be conducted in certain sections.  Additional
+lectures might be given in certain sections. You will be informed in advanced
+when your attendance at a section will be expected.  Please be sure to leave
+this time slot open for such circumstances.  For the most part, sections 
+will constitute an especially important resource for students in need of help.
+When there is no particular event scheduled during a section, either Grader or
+Instructor will hold an OH during the hour. 
+
+Final Deliverables: Final Deliverables include
+1) Final Report using the course LaTeX template
+2) Final Video Presentation using the course LaTeX template
+3) Final R package with full documentation
+4) Peer evaluation summarizing contribution of team members
+
+Grading of Final Deliverables will be based on evidence of:
+1) Creativity
+2) Clarity of presentation
+3) Thoroughness of investigation
+4) Thoughtfulness of investigation
+5) Effort expended
+6) Critical thinking
+
+Last Modified: 02/04/2013
