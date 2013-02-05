@@ -1,0 +1,17 @@
+load("/Users/thenaminator/550400.ravenxlvii/HelloRpackage/data/matlabclown.RData")
+dir()
+ls()
+X
+matlabclown = X
+image(matlabclown)
+save(matlabclown,file='matlabclown.RData')
+rm(list=ls())
+dir()
+load('matlabclown.RData')
+ls()
+levelplot(matlabclown)
+require(lattice)
+levelplot(matlabclown)
+levelplot(matlabclown)
+str(matlabclown)
+q()
