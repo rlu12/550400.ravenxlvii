@@ -11,6 +11,7 @@ This function returns the first \code{k} ``components'' of \code{X}.  See the co
     \item{X}{An image in a matrix form}
     \item{k}{The number of components to use}
 }
+
 \value{
     \item{Xhat}{An approximation of original image using singluar valude decomposion}
 }
