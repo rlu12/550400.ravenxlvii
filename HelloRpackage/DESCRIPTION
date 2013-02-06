@@ -4,7 +4,7 @@ Date: 2013-02-05
 Title: Hello R Package!
 Author: Nam H. Lee
 Maintainer: Nam H. Lee <nhlee@jhu.edu> 
-Depends: lattice
+Depends: lattice, abind, reshape, plyr
 Description: Various R scripts for class demo
 License: GPL (>=3)
 URL: http://github.com/nhlee/550400.ravenxlvii

@@ -1,0 +1,51 @@
+Problem 1: 
+
+Keywords: Simulation, Monte Carlo Estimate, for-loop, matrix-indexing,
+writing R functions
+
+Suppose that a seminar room has 6 * 15 chairs and assume that between 3-rd and
+4-th columns there is an aisle and between 12-th and 13-th columns, there is
+another aisle.  Assume that the seminar is fully attended, i.e., all the
+chairs are taken.  For each (i,j)-th seat, we assume that 
+
+1) its horizontally and vertically neighboring seats that the sheet has not
+passed before are only possible locations for the sheet, and we call these
+seats "the neighboring next seats",
+
+2) if seat (i,j) is not an aisle seat, then the neighboring next seats are
+equally likely to be chosen as the next location,
+
+3) if seat (i,j) is an aisle seat, then while all non-aisle neighboring next
+seats are equally likely to be chosen as the next location, the neighboring
+next seat that is an aisle seat is half the probability of one of the
+non-aisle neighboring next seat. 
+
+If there is no neighboring next seat, then the sheet just sits at the current
+seat till the end.
+
+If you are the seminar organizer who wants to maximize, at least on average,
+the number of names collected at the end of seminar, where should you
+initially put your attendance sheet?  
+
+-- R/problem1.R 
+-- man/problem1.Rd
+
+Problem 2:
+
+Consider the following statements: 
+
+"This is also an interesting example because, even if the experiment is
+randomized, it does not yield unbiased estimates of ages."
+
+"we have found the variance of guesses to be similar for all the photos, but
+the biases vary quite a bit, since some people “look their age” and some do
+not"
+
+Do the data collected in the first-day of the class support the two statements
+made above?  Create a 5-minute video in which you answer the aforementioned
+question.  You are not limited to LaTeX at this point, and feel free to use
+softwares such as Powerpoint & Keynotes.  However, except the title page and
+the headings of each slide, the contents should be descriptive figures that
+are dicussed in Chapter 1 of Nolan & Speed.  Be sure to include a transcript
+of your video.  Grading will be based on the evidence of clarity,
+thoughtfulness and crtical thinking.

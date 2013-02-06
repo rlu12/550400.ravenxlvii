@@ -1,0 +1,65 @@
+Lecture 02 02/06/2013
+
+LaTeX installation (miktex.org or tug.org/mactex)
+Git installation (git-scm.com)
+R installation (www.r-project.org)
+RStudio installation (www.rstudio.com)
+
+Getting started with R and matrix computation: 
+
+    See "An Introduction to R" on the web
+
+    starting & closing an R project
+
+    installing & using (add-on) R packages
+    -- install.packages
+    -- require
+
+    creating a vector of numbers
+    -- c
+    -- seq
+    -- :
+
+    computing a statistic on vectors
+    -- mean
+    -- sum
+    -- length 
+
+    creating a matrix of numbers
+    -- matrix
+    -- rbind
+    -- cbind 
+
+
+    taking transpose of a matrix uinsg t 
+    visualizing matrix using image & levelplot ("lattice" package)
+
+    What is a Data Matrix? 
+    -- fix
+    -- read.csv
+   
+    subsetting a matrix 
+    pasting matrices together using abind ("abind" package)
+    pasting matrices together using list
+
+    fancy matrix operations 
+    -- multiplying matrices using %*% 
+    -- taking inverse using solve
+    -- decomposing a matrix using svd
+    -- computing eigenvalues & eigenvectors using eigen
+
+    writing an R function to compute an approximate image
+
+Getting started with building an R package:
+
+    See "Wrting R extension" on the web 
+
+    Hello R package
+    -- R, data, man, DESCRIPTION, NAMESPACE
+    -- .R, .RData, .Rd
+    -- check, clean and rebuild
+
+Lecture 01 02/04/2013
+
+Syllabus 
+Data collection 
