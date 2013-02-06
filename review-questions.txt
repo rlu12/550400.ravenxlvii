@@ -3,7 +3,7 @@ Problem 1:
 Keywords: Simulation, Monte Carlo Estimate, for-loop, matrix-indexing,
 writing R functions
 
-Suppose that a seminar room has 6 * 15 chairs and assume that between 3-rd and
+Suppose that a seminar room has 6 * 15 seats and assume that between 3-rd and
 4-th columns there is an aisle and between 12-th and 13-th columns, there is
 another aisle.  Assume that the seminar is fully attended, i.e., all the
 chairs are taken.  For each (i,j)-th seat, we assume that 
@@ -31,6 +31,8 @@ initially put your attendance sheet?
 -- man/problem1.Rd
 
 Problem 2:
+
+Keywords: Descriptive Summary, R plotting tools, Video Presentation
 
 Consider the following statements: 
 
