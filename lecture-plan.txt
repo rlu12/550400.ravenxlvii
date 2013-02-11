@@ -1,3 +1,12 @@
+Lecture 03 02/11/2013
+
+What is git? & Why in this class?
+    git clone git://github.com/nhlee/550400.ravenxlvii.git
+
+What is an RStudio project? and how is it different from an R package?
+Actually, what is an R package?
+
+
 Lecture 02 02/06/2013
 
 LaTeX installation (miktex.org or tug.org/mactex)
