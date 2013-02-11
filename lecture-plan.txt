@@ -1,11 +1,85 @@
 Lecture 03 02/11/2013
 
-What is git? & Why in this class?
-    git clone git://github.com/nhlee/550400.ravenxlvii.git
+Quiz:
+    -- R commands covered in class by this Wednesday
+    -- Some review on this Wednesday/Thursday
+    -- http://cran.r-project.org/doc/manuals/r-release/R-intro.html
+        -- this is a reference to R in this class
+
+What is Git? & Why in this class?
+    -- firefox http://github.com/nhlee/550400.ravenxlvii
+    -- just like Drop Box but read only (a poor analogy but for now ...) 
+    -- git clone git://github.com/nhlee/550400.ravenxlvii.git
+    -- git pull origin master
+    -- git branch Feb-11-2013
+    -- git checkout Feb-11-2013
+    -- git add .
+    -- git commit -am 'some short reminder here'
+    -- git checkout master
+    -- git pull origin master
 
 What is an RStudio project? and how is it different from an R package?
 Actually, what is an R package?
+    -- each RStudio project can have one R project
+    -- each R project has several folders (R, man, data, inst)
+    -- each R project has few files (DESCRIPTION & NAMESPACE)
+    -- template\ 00\ Rpackageproject
+           |
+            -- template.Rproj
+           |
+            -- HelloRpackage/
+                   |
+                    -- R/
+                   |
+                    -- data/
+                   |
+                    -- man/
+                   |
+                    -- DESCRIPTION 
+                   |
+                    -- NAMESPACE 
+                   |
+                    -- inst/doc/
+                             |
+                              -- extra/READ-AND-DELETE-ME
+    -- loading and unloading an R package
+        -- use the RStudio project
 
+Creating a .csv file and reading it into your R session.
+    -- always hit [ENTER] at the end of each row (esp. the last row)
+    -- read.table option
+        -- sep
+        -- header
+        -- 'generic' version of read.csv
+    -- data-age-guessing.csv
+        -- dataframe (an R object)
+            -- like *a* spreadsheet
+            -- attach & detach
+    -- http://www.stat.berkeley.edu/users/statlabs/data/babiesI.data 
+        -- N.B. the textbook webpage is
+                http://www.stat.berkeley.edu/users/statlabs/index.html
+        -- making a two-way table 
+            -- cut, table
+            -- loading an R-command-history file
+    -- http://faculty.chicagobooth.edu/ruey.tsay/teaching/fts3/m-fac9003.txt
+        -- Monthly returns of 13 stocks & the return of S&P 500
+        -- The sample period is from Jan 1990 to Dec 2003 
+    -- list (an R object)
+        -- like spreadsheet*s*
+
+Why use SVD on data matrix? 
+    -- Big Data!
+        -- http://www.commoncraft.com/video/big-data
+        -- dimensionality reduction
+    -- svd (an R function)
+       -- an output of svd is a list
+           -- str(svd)
+    -- identical (an R function)
+    -- centering 
+       -- apply, rep, cbind, t, 
+       -- the "J matrix" := I - (1/n)*11^t
+    -- double centered distance matrix
+       -- J %*% dist %*% t(J)
 
 Lecture 02 02/06/2013
 

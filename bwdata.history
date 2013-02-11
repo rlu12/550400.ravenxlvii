@@ -1,0 +1,40 @@
+output = read.table("http://www.stat.berkeley.edu/users/statlabs/data/babiesI.data",header=TRUE)
+str(output)
+class(output)
+mode(output)
+apply(output,2,mean)
+attach(output)
+bwt
+detach(output)
+bwt
+attach(output)
+bwt*0.00625
+below = ifelse(bwt*0.0625<5.5,1,0)
+plot.ts(below)
+below
+sum(below)/length(below)
+sum(below)/length(below)*100
+str(outut)
+str(output)
+smoke[below]
+below[smoke]
+cbind(below,smoke)
+below[which(smoke==1)]
+below.smoke = below[which(smoke==1)]
+below.nonsmoke = below[which(smoke==0)]
+sum(below.smoke)/length(below.smoke)
+sum(below.nonsmoke)/length(below.nonsmoke)
+attach(output)
+(cut(bwt,quantile(bwt)))
+table(cut(bwt,quantile(bwt)),smoke)
+str(cut(bwt,quantile(bwt)))
+plot(cut(bwt,quantile(bwt)))
+tapply(cut(bwt,quantile(bwt)),FUN=summary)
+tmp = (cut(bwt,quantile(bwt)))
+tmp
+levels(tmp)
+tapply(cut(bwt,quantile(bwt)),(tmp),FUN=function(x) x)
+tapply(bwt,(tmp),FUN=summary)
+tapply(bwt,(tmp),FUN=summary)
+tapply(bwt,(tmp),boxplot)
+tapply(cut(bwt,quantile(bwt)),(tmp),FUN=function(x) x)
